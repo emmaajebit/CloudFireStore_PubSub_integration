@@ -19,7 +19,7 @@ def hello_firestore(event, context):
     PROJECT_ID =  'test-function-project-384218'
     message = str(event)
 
-    topic_path = publisher.topic_path(PROJECT_ID, topic_name)
+    topic_path = publisher.topic_path(test-function-project-384218, demo-pub)
 
     message_json = json.dumps({
         'data': {'message': message},

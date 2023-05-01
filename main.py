@@ -15,7 +15,7 @@ def hello_firestore(event, context):
     # now print out the entire event object
     print(str(event))
 #projects/test-function-project-384218https://github.com/emmaajebit/CloudFireStore_PubSub_integration/blob/main/main.py16/topics/demo-pub
-    topic_name = 'https://github.com/emmaajebit/CloudFireStore_PubSub_integration/blob/main/main.py'
+    topic_name = 'demo-pub'
     PROJECT_ID =  'test-function-project-384218'
     message = str(event)
 

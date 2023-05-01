@@ -14,9 +14,9 @@ def hello_firestore(event, context):
     print(f"Function triggered by change to: {resource_string}.")
     # now print out the entire event object
     print(str(event))
-#projects/avian-amulet-3784https://github.com/islamsamipkr/CloudFireStore_PubSub_integration/blob/main/main.py16/topics/func-1-demo
-    topic_name = 'https://github.com/islamsamipkr/CloudFireStore_PubSub_integration/blob/main/main.py'
-    PROJECT_ID =  'avian-amulet-378416'
+#projects/test-function-project-384218https://github.com/emmaajebit/CloudFireStore_PubSub_integration/edit/main/main.py16/topics/func-1-demo
+    topic_name = 'https://github.com/emmaajebit/CloudFireStore_PubSub_integration/edit/main/main.py '
+    PROJECT_ID =  'test-function-project-384218'
     message = str(event)
 
     topic_path = publisher.topic_path(PROJECT_ID, topic_name)
